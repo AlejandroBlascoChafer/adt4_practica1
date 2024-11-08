@@ -10,7 +10,7 @@ public class GestionBD {
     private static final String BD = "adt4_practica1";
     private static final String LOGIN = "root";
     private static final String PASSWORD = "";
-    private static final String URL = "jdbc:mysql://localhost/adt4_practica1";
+    private static final String URL = "jdbc:mysql://localhost/" + BD;
 
     private static GestionBD db = null;
     private Connection conexion = null;
