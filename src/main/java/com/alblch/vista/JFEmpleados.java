@@ -2,23 +2,26 @@ package com.alblch.vista;
 
 import javax.swing.*;
 
-public class JFEmpleados {
-    private JPanel pnPrincipal;
+public class JFEmpleados extends JFrame{
+    public JPanel pnPrincipal;
     private JPanel pnDerecha;
     private JPanel pnIzquierda;
     private JPanel pnSuperior;
     private JPanel pnInferior;
-    private JTextField txtDni;
-    private JTextField txtNombre;
-    private JTextField txtApellidos;
-    private JTextField txtEdad;
-    private JTextField txtSalario;
-    private JButton btnInsertar;
-    private JButton btnListar;
-    private JButton btnBorrar;
-    private JTable jtEmpleados;
+    public JTextField txtDni;
+    public JTextField txtNombre;
+    public JTextField txtApellidos;
+    public JTextField txtEdad;
+    public JTextField txtSalario;
+    public JButton btnInsertar;
+    public JButton btnListar;
+    public JButton btnBorrar;
+    public JTable jtEmpleados;
 
     public JFEmpleados() {
-
+        setContentPane(pnPrincipal);
+        setTitle("ADT4 - Practica1");
+        pack();
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 }
