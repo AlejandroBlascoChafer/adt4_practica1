@@ -17,6 +17,7 @@ public class JFEmpleados extends JFrame{
     public JButton btnListar;
     public JButton btnBorrar;
     public JTable jtEmpleados;
+    private JScrollPane spTabla;
 
     public JFEmpleados() {
         setContentPane(pnPrincipal);

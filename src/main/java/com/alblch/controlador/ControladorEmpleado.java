@@ -100,7 +100,7 @@ public class ControladorEmpleado implements ActionListener {
             Empleado empleado = new Empleado();
             empleado.setDni(dni);
 
-            int numeroRegistros = 0;
+            int numeroRegistros;
             numeroRegistros = modelo.borrar(empleado);
 
             if (numeroRegistros != 0){

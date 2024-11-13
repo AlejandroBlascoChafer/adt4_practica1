@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) {
         JFEmpleados vista = new JFEmpleados();
         EmpleadoDAO modelo = new EmpleadoDAO();
-        ControladorEmpleado ca = new ControladorEmpleado(modelo, vista);
+        ControladorEmpleado ce = new ControladorEmpleado(modelo, vista);
 
         vista.setLocationRelativeTo(null);
         vista.setVisible(true);
